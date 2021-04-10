@@ -5,33 +5,41 @@ namespace Day3_IntroToConditional
     class Program
     {
         
-
         static void Main(string[] args)
         {
 
             int N = Convert.ToInt32(Console.ReadLine());
             
-            if ()
+            if (!IsEven(N))
             {
                 Console.WriteLine("Weird");
             }
-            else if (N%2==0 && N >= 2 && N <= 5)
+            else if (IsEven(N))
             {
-                Console.WriteLine("Not Weird");
-            }
-            else if (true)
-            {
+                if (N >= 2 && N <= 5)
+                {
+                    Console.WriteLine("Not Weird");
+                }
+                else if (N >= 6 && N <= 20)
+                {
+                    Console.WriteLine("Weird");
+                }
+                else if (N >= 6 && N <= 20)
+                {
+                    Console.WriteLine("Weird");
+                }
 
             }
+           
         }
-        public bool IsEven(int n)
+        static bool IsEven(int n)
         {
-            if (n%2 == 0)
+            if (n % 2 == 0)
             {
                 return true;
-                
+
             }
-            
+
             return false;
         }
     }
