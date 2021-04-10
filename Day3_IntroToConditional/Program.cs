@@ -24,9 +24,9 @@ namespace Day3_IntroToConditional
                 {
                     Console.WriteLine("Weird");
                 }
-                else if (N >= 6 && N <= 20)
+                else if (N > 20)
                 {
-                    Console.WriteLine("Weird");
+                    Console.WriteLine("Not Weird");
                 }
 
             }
