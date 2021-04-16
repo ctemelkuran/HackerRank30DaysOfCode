@@ -21,12 +21,10 @@ namespace Day7_Arrays
             int n = Convert.ToInt32(Console.ReadLine());
 
             int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
-            
-            for (int i = n; i >= 0; i--)
-            {
-                Array reverse = Array.Reverse(arr);
-                Console.Write("{0} ", arr[i]);
-            }
+            Array.Reverse(arr);
+             
+            Console.Write(String.Join(' ',arr));
+           
             
 
         }
