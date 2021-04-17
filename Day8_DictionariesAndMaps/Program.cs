@@ -8,35 +8,28 @@ namespace Day8_DictionariesAndMaps
     {
         static void Main(string[] args)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
-            
+            int n = int.Parse(Console.ReadLine());
+
+            if (n>Math.Pow(10,5) || n<1)
+            {
+                throw new Exception("Enter valid value");
+            }
             Dictionary<string, string> phoneBook = new Dictionary<string, string>();
 
             for (int i = 0; i < n; i++)
             {
                 
-                string input = Console.ReadLine();
-                string[] items = input.Split();
+                //string input = ;
+                string[] items = Console.ReadLine().Split();
                 phoneBook[items[0]] = items[1];
-                if (items.Length > 2)
-                {
-                    Console.WriteLine("2 values must be entered");
-                }
-                else if (items[1].Length >8)
-                {
-                    Console.WriteLine("8 values must be entered");
-                }
-                
-                  
-                
-                
+
             }
             List<string> names = new List<string>();
             for (int i = 0; i < n; i++)
             {
-                string name = Console.ReadLine();
-                names.Add(name);
-                //string[] namesnput  = Console.ReadLine().ToString(); 
+                //string name = ;
+                names.Add(Console.ReadLine());
+                
                 
             }
 
