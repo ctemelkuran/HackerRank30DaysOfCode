@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day8_DictionariesAndMaps", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day9_Recursion", "Day9_Recursion\Day9_Recursion.csproj", "{CB9959C8-7E05-499B-BD71-9E9753E271E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10_BinaryNumbers", "Day10_BinaryNumbers\Day10_BinaryNumbers.csproj", "{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{CB9959C8-7E05-499B-BD71-9E9753E271E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB9959C8-7E05-499B-BD71-9E9753E271E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB9959C8-7E05-499B-BD71-9E9753E271E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

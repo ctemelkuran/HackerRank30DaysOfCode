@@ -29,14 +29,11 @@ namespace Day9_Recursion
             {
                 return 1;
             }
-                
-            
-           
+
         }
 
         static void Main(string[] args)
         {
-            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
             int n = Convert.ToInt32(Console.ReadLine());
 
