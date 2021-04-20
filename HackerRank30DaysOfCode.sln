@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day7_Arrays", "Day7_Arrays\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day8_DictionariesAndMaps", "Day8_DictionariesAndMaps\Day8_DictionariesAndMaps.csproj", "{CD1E8E58-2DE9-4DDB-9945-43C94208FDF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day9_Recursion", "Day9_Recursion\Day9_Recursion.csproj", "{CB9959C8-7E05-499B-BD71-9E9753E271E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day9_Recursion", "Day9_Recursion\Day9_Recursion.csproj", "{CB9959C8-7E05-499B-BD71-9E9753E271E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10_BinaryNumbers", "Day10_BinaryNumbers\Day10_BinaryNumbers.csproj", "{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day10_BinaryNumbers", "Day10_BinaryNumbers\Day10_BinaryNumbers.csproj", "{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day11_2DArrays", "Day11_2DArrays\Day11_2DArrays.csproj", "{F4CEACAE-A033-42FB-8004-192B4647289C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A88607B1-FFD5-4BD0-A5D8-6A35F11EE5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CEACAE-A033-42FB-8004-192B4647289C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CEACAE-A033-42FB-8004-192B4647289C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CEACAE-A033-42FB-8004-192B4647289C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CEACAE-A033-42FB-8004-192B4647289C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
