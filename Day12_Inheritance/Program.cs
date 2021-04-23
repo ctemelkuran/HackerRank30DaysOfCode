@@ -45,7 +45,7 @@ namespace Day12_Inheritance
             *   scores - An array of integers denoting the Person's test scores.
             */
             // Write your constructor here
-            public Student(string firstName, string lastName, int idNumber, int[] scores) //: base(firstName, lastName, id)
+            public Student(string firstName, string lastName, int idNumber, int[] scores)
             {
                 this.firstName = firstName;
                 this.lastName = lastName;
