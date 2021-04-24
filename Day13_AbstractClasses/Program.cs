@@ -22,17 +22,18 @@ namespace Day13_AbstractClasses
     class MyBook : Book
     {
         int price;
-        public MyBook(string title, string author, int price)
+        public MyBook (string title, string author, int price): base(title, author)
         {
-            this.title = title;
-            this.author = author;
+            //title = title;
+            //author = author;
+            this.price = price;
             
         }
         public override void display()
         {
-            Console.WriteLine("Title: ", title);
-            Console.WriteLine("Author: ", author);
-            Console.WriteLine("Price: ", price);
+            Console.WriteLine("Title: "+ title);
+            Console.WriteLine("Author: "+ author);
+            Console.WriteLine("Price: "+ price);
         }
     }
 
