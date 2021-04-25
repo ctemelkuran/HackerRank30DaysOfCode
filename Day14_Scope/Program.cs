@@ -16,10 +16,7 @@ namespace Day14_Scope
 
         public void computeDifference()
         {
-            //for (int i = 0; i < elements.Length; i++)
-            //{
-            //    maximumDifference = Math.Abs(elements[i] )
-            //}
+        
             maximumDifference = Math.Abs(elements.Max()-elements.Min());
         }
     }
