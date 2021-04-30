@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
 namespace Day16_StringToIntegerException
 {
@@ -6,7 +9,17 @@ namespace Day16_StringToIntegerException
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string S = Console.ReadLine();
+            try
+            {
+                Console.WriteLine(Int32.Parse(S));
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Bad String");
+            }
+       
+
         }
     }
 }
