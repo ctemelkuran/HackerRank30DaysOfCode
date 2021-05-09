@@ -16,6 +16,13 @@ namespace Day20_Sorting
 {
     class Program
     {
+        static void swap(int number1, int number2)
+        {
+            int temp;
+            temp = number1;
+            number1 = number2;
+            number2 = temp;
+        }
         static void Main(string[] args)
         {
             int n = Convert.ToInt32(Console.ReadLine().Trim());
@@ -24,11 +31,11 @@ namespace Day20_Sorting
 
            
             int firstElement, lastElement;
-
+            int numberOfSwaps = 0;
             for (int i = 0; i < n; i++)
             {
                 // Track number of elements swapped during a single array traversal
-                int numberOfSwaps = 0;
+                
 
                 for (int j = 0; j < n - 1; j++)
                 {
@@ -46,7 +53,9 @@ namespace Day20_Sorting
                     break;
                 }
             }
-
+            Console.WriteLine("Array is sorted in {0} swaps.", numberOfSwaps);
+            Console.WriteLine("First Element: " + a[0]);
+            Console.WriteLine("Last Element: " + a[a.Count -1]);
         }
     }
 }
