@@ -18,7 +18,26 @@ namespace Day22_BinarySearchTrees
         static int getHeight(Node root)
         {
             //Write your code here
+            int heightleft = getHeight(root.left);
+            int heightright = getHeight(root.right);
+            if (root == null)
+            {
+                return 0;    
+            }
+            else
+            {
+                if (heightleft > heightright )
+                {
+                    return heightleft +1;
+
+                }
+                else
+                {
+                    return heightright + 1;
+                }
+            }
         }
+
         static Node insert(Node root, int data)
         {
             if (root == null)
