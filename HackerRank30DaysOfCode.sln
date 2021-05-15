@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day20_Sorting", "Day20_Sort
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day21_Generics", "Day21_Generics\Day21_Generics.csproj", "{5F94634C-B980-4D4D-925A-8E7CA9BF0FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day22_BinarySearchTrees", "Day22_BinarySearchTrees\Day22_BinarySearchTrees.csproj", "{B0F05086-495D-49E0-ADA5-B6AAC9B27B9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day22_BinarySearchTrees", "Day22_BinarySearchTrees\Day22_BinarySearchTrees.csproj", "{B0F05086-495D-49E0-ADA5-B6AAC9B27B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day23_BinaryTrees", "Day23_BinaryTrees\Day23_BinaryTrees.csproj", "{6172DAFC-3116-4832-85BD-5558A50556CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{B0F05086-495D-49E0-ADA5-B6AAC9B27B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0F05086-495D-49E0-ADA5-B6AAC9B27B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0F05086-495D-49E0-ADA5-B6AAC9B27B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6172DAFC-3116-4832-85BD-5558A50556CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6172DAFC-3116-4832-85BD-5558A50556CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6172DAFC-3116-4832-85BD-5558A50556CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6172DAFC-3116-4832-85BD-5558A50556CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
