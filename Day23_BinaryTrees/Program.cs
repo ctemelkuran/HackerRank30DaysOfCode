@@ -18,21 +18,30 @@ namespace Day23_BinaryTrees
     }
     class Program
     {
-        
+
 
         static void levelOrder(Node root)
         {
-            Queue<int> queue = new Queue<int>();
-
-            if (root != null)
+            Queue<Node> queue = new Queue<Node>();
+            queue.Enqueue(root);
+            while (queue.Count != 0)
             {
-                queue.Enqueue(root.data);
+                Node tempNode = queue.Dequeue();
+                Console.Write("{0} ", tempNode.data);
 
-                
+                if (tempNode.left != null)
+                {
+                    queue.Enqueue(tempNode.left);
+                }
+                if (tempNode.right != null)
+                {
+                    queue.Enqueue(tempNode.right);
+                }
+
             }
 
 
-            Console.WriteLine("{0} ",);
+
         }
 
         static Node insert(Node root, int data)
