@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day22_BinarySearchTrees", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day23_BinaryTrees", "Day23_BinaryTrees\Day23_BinaryTrees.csproj", "{6172DAFC-3116-4832-85BD-5558A50556CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day24_LinkedListDeletion", "Day24_LinkedListDeletion\Day24_LinkedListDeletion.csproj", "{6109C65B-4ADD-42A8-AB51-D533E4E17814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day24_LinkedListDeletion", "Day24_LinkedListDeletion\Day24_LinkedListDeletion.csproj", "{6109C65B-4ADD-42A8-AB51-D533E4E17814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day25_RunningTimeAndComplexity", "Day25_RunningTimeAndComplexity\Day25_RunningTimeAndComplexity.csproj", "{7A238E13-8B87-40F5-91EE-A023D4E0D8A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{6109C65B-4ADD-42A8-AB51-D533E4E17814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6109C65B-4ADD-42A8-AB51-D533E4E17814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6109C65B-4ADD-42A8-AB51-D533E4E17814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A238E13-8B87-40F5-91EE-A023D4E0D8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A238E13-8B87-40F5-91EE-A023D4E0D8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A238E13-8B87-40F5-91EE-A023D4E0D8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A238E13-8B87-40F5-91EE-A023D4E0D8A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
