@@ -9,7 +9,11 @@ namespace Day25_RunningTimeAndComplexity
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int T = Int32.Parse(Console.ReadLine());
+            while (T-- > 0)
+            {
+                
+            }
         }
     }
 }
